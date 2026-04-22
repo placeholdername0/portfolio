@@ -6,6 +6,7 @@ import proj2 from "./assets/proj2.png";
 import proj3 from "./assets/proj3.png";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
+import proj4 from "./assets/proj4.png";
 
 
 {/*details to make this easy to add more to in the future*/}
@@ -30,6 +31,11 @@ const projects = [
     title: "Promotional Sample Piece",
     image: proj3,
     description: "Previous sample graphic design project from a couple years ago for my digital design class."
+  },
+    {
+    title: "Springy's big leap",
+    image: proj4,
+    description: "One of the first few Unity games I worked on to get experience. Generic platformer with sprites made entby me and coded entirely by me."
   }
 ];
 
