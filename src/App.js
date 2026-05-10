@@ -21,7 +21,7 @@ function Contact() {
   );
 }
 
-export default function Hello() {
+export default function App() {
 //set up search state
 const [searchTerm, setSearchTerm] = useState("");
 const [theme, setTheme] = useState("dark");
