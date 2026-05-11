@@ -4,7 +4,8 @@ import "./styles.css";
 
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-
+//added basename="" to make it around how /portfolio and the actual
+//default route were separate
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
